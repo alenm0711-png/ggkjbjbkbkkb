@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Галактика — магазин планет</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="ui">
+<h1>GALAXY</h1><div class="sub">Нажми на светящуюся планету, чтобы осмотреть её</div>
+<button id="cart">Корзина · <b id="cc">0</b></button><div id="cartbox"></div>
+<div id="nav"></div><div id="labels"></div>
+<div id="hint">ЛКМ — вращать · ПКМ / Shift — сдвиг · колесо — зум · WASD / Q E — полёт · 1–9 — планета · Esc — назад</div>
+<div id="panel">
+<h2 id="pn"></h2><div class="tag" id="pt"></div>
+<div id="pr"></div><div id="hab"></div>
+<p id="pd"></p>
+<h3>События</h3><ul id="pe"></ul>
+<div id="buy"><div id="price"></div><button id="bb"></button></div>
+<div class="row2"><button id="spin"></button><button id="back">← К галактике</button></div>
+</div>
+</div>
+<div id="toast"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
